@@ -37,3 +37,6 @@ jobs:
       
       - name: Run python
         run: which python && python
+      
+      - name: Run spaces
+        run: df -h
